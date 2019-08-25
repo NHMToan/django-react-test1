@@ -1,0 +1,19 @@
+{
+    "python.pythonPath": "/anaconda2/bin/python",
+    "editor.formatOnSave": true,
+    "python.linting.pep8Enabled": true,
+    "python.linting.pylintPath": "/path/to/virtualenv/bin/pylint",
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_django"
+    ],
+    "python.venvPath": "${workspaceFolder}/backend/env/bin/python3",
+    "python.linting.pylintEnabled": true,
+    "python.linting.pep8Args": [
+        "--ignore=E501"
+    ],
+    "python.analysis.disabled": [
+        "undefined-variable",
+        "unresolved-import"
+    ]
+}
